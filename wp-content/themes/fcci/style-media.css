@@ -1,0 +1,37 @@
+/*** MEDIA QUERIES ***/
+
+@media only screen (min-width:768px) and (min-device-width : 768px)  and (max-device-width : 1024px)  and (orientation : portrait) {
+	body {
+		width:100%;
+		max-width:768px;
+		min-width:768px;
+	}
+	#homeModuleIntro {
+		margin: 320px 0 0 0;
+	}
+	.home header,.home #primary{
+		width:768px;
+	}
+	#homeModuleIntro, #homeModuleIntro h1{
+		width:350px;
+	}
+	#homeModuleTaxSaver{
+		margin:255px 0 0 0;
+	}
+	#masthead{
+		width:768px;
+	}
+	#clientLogin{
+		left:649px;
+		width:100px;
+	}
+
+	dt,dt img,.home #hero dl{
+		width:250px;
+		height:390.65px;
+
+	}
+	.home #panel_captions{
+		bottom:35px;
+	}
+}

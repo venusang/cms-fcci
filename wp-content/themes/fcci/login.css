@@ -1,0 +1,10 @@
+img{border:none;}
+a{text-decoration:underline; color:#fff;}
+table {border-collapse: collapse;}
+html { background-color:#9a9486;}
+body { width:1440px; margin: 0px auto; font-family: Arial, Helvetica, sans-serif; color:#fff; font-size:12px; padding-top: 10%;}
+
+#login{width:268px; height:385px; margin: 0px auto; background: url(/Images/loginbg.jpg) no-repeat left top; padding-left:75px; padding-right:75px; padding-top:40px; text-align:center;}
+table {width:248px; margin-bottom:10px;}
+td{line-height:30px; text-align:left;}
+.inputbox{line-height: 30px; padding-left:2px; width:246px; border: #ab9b94 1px solid; height: 30px; color: #48453f; font-size:17pt;}

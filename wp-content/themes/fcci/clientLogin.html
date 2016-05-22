@@ -1,0 +1,47 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head><title>
+	Login
+</title>
+<link href="/Content/login.css" rel="stylesheet" type="text/css" />
+<link href="login.css" rel="stylesheet" type="text/css" />
+	<script language="javascript">
+		function Focus() {
+
+			document.getElementById('username').focus();
+			var isInIFrame = (window.location != window.parent.location) ? true : false;
+			if( isInIFrame )
+				window.parent.location = "http://www.taxadvantage.us.com/";
+		}
+	</script>
+</head>
+<body onload="Focus();">
+	<div id="login">
+		<img src="https://fccita.taxadvantage.us.com//Images/logo.png" alt="LOGO" width="166" height="124" />
+		<form action="/Account/LogOn" method="post">
+			<table border="0" cellspacing="0" cellpadding="0">
+				<tr>
+					<td>Username</td>
+				</tr>
+				<tr>
+					<td>
+						<label>
+							<input name="username" type="text" class="inputbox" id="username" />
+						</label>
+					</td>
+				</tr>
+				<tr>
+					<td>Password</td>
+				</tr>
+				<tr>
+					<td><input name="password" type="password" class="inputbox" id="password" /></td>
+				</tr>
+			</table>
+			<br />
+			<input name="" type="image" src="/Images/loginbtn.png" />
+		</form>
+	</div>
+</body>
+</html>
